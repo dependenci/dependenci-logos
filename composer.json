@@ -1,0 +1,37 @@
+{
+    "name": "dependenci/dependenci-logos",
+    "description": "An internal utility to add the SVG DependenCI logo with a blade directive",
+    "keywords": [
+        "dependenci",
+        "dependenci-logos",
+        "m1guelpf"
+    ],
+    "homepage": "https://github.com/dependenci/dependenci-logos",
+    "license": "MPLv2.0",
+    "authors": [
+        {
+            "name": "Miguel Piedrafita",
+            "email": "soy@miguelpiedrafita.com",
+            "homepage": "https://miguelpiedrafita.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DependenCI\\Logos\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DependenCI\\Logos\\DependenCILogosServiceProvider"
+            ]
+        }
+    }
+}
